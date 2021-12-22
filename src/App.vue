@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" width="80">
+    <MainBody heading="Consuming API Assignment in Vue.js"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainBody from './components/MainBody.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainBody
   }
 }
 </script>
